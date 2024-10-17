@@ -1,6 +1,10 @@
 # KMeans Clustering with Image Upload and Feature Extraction
 
-This repository contains a KMeans clustering implementation that clusters uploaded images based on color, texture, and spatial features. The application uses **Streamlit** for the web interface, and the **KMeans** algorithm is implemented manually. Users can upload images, select the number of clusters, and visualize the clustering results.
+This repository contains a KMeans clustering implementation that clusters uploaded images based on color, texture, and spatial features. The application uses **Streamlit** for the web interface, and the **KMeans** algorithm is implemented manually. Users can upload images, select the number of clusters, and visualize the clustering results. You can try out the live version of the KMeans Clustering app deployed on Streamlit Cloud at the following link:
+
+K-Means Clustering App [https://k-meansclustering-sda2rjqpi8mqcghkkzlvqz.streamlit.app/]
+
+In this app, you can upload images, choose the number of clusters, and visualize the clustering results with mean colors for each cluster.
 
 ## Features
 
@@ -22,10 +26,3 @@ To install the required dependencies, run:
 ```bash
 pip install streamlit opencv-python numpy scikit-learn Pillow
 
-## Live Demo
-
-You can try out the live version of the KMeans Clustering app deployed on Streamlit Cloud at the following link:
-
-[K-Means Clustering App](https://k-meansclustering-sda2rjqpi8mqcghkkzlvqz.streamlit.app/)
-
-In this app, you can upload images, choose the number of clusters, and visualize the clustering results with mean colors for each cluster.
