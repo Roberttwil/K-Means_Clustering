@@ -6,10 +6,11 @@ K-Means Clustering App [https://k-meansclustering-sda2rjqpi8mqcghkkzlvqz.streaml
 
 In this app, you can upload images, choose the number of clusters, and visualize the clustering results with mean colors for each cluster.
 
-**Example:**
+**Before Clustering**:
+![Beach Image](beach.jpg)
 
-
-
+**After Clustering**:
+![Clustered Beach Image](beach_10cluster.jpg)
 
 
 ## Features
