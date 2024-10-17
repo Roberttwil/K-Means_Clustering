@@ -6,6 +6,12 @@ K-Means Clustering App [https://k-meansclustering-sda2rjqpi8mqcghkkzlvqz.streaml
 
 In this app, you can upload images, choose the number of clusters, and visualize the clustering results with mean colors for each cluster.
 
+**Example:**
+
+
+
+
+
 ## Features
 
 - **Upload Multiple Images**: Supports PNG, JPG, and JPEG formats.
@@ -25,4 +31,6 @@ To install the required dependencies, run:
 
 ```bash
 pip install streamlit opencv-python numpy scikit-learn Pillow
+
+
 
