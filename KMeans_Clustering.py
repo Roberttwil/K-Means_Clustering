@@ -159,7 +159,7 @@ st.title("Image Upload and Clustering with KMeans")
 uploaded_files = st.file_uploader("Choose image(s)...", accept_multiple_files=True, type=["png", "jpg", "jpeg"])
 
 # Allow the user to select the number of clusters
-num_clusters = st.slider('Select the number of clusters', min_value=2, max_value=10, value=3)
+num_clusters = st.slider('Select the number of clusters', min_value=2, max_value=25, value=3)
 
 if uploaded_files:
     for uploaded_file in uploaded_files:
